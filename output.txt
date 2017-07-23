@@ -1,0 +1,121 @@
+10.25.2.176项目ly3
+
+[root@localhost ~]# 
+nohup hping3 192.166.105.3 -S -k -s 5000 -i u100000 -d 100 -q &
+nohup hping3 192.166.105.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.105.3 -i u100000 -s 5001 -d 100 -2 -k &
+nohup hping3 192.166.106.3 -S -k -s 5002 -i u100000 -d 100 -q &
+nohup hping3 192.166.106.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.106.3 -i u100000 -s 5003 -d 100 -2 -k &
+nohup hping3 192.166.107.3 -S -k  -s 5004 -i u100000 -d 100 -q &
+nohup hping3 192.166.107.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.107.3 -i u100000 -s 5005 -d 100 -2 -k &
+nohup hping3 192.166.108.3 -S -k  -s 5006 -i u100000 -d 100 -q &
+nohup hping3 192.166.108.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.108.3 -i u100000 -s 5007 -d 100 -2 -k &
+nohup hping3 192.166.109.3 -S -k -s 5008 -i u100000 -d 100 -q &
+nohup hping3 192.166.109.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.109.3 -i u100000 -s 5009 -d 100 -2 -k &
+nohup hping3 192.166.110.3 -S -k  -s 5010 -i u100000 -d 100 -q &
+nohup hping3 192.166.110.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.110.3 -i u100000 -s 5011 -d 100 -2 -k &
+nohup hping3 192.166.111.3 -S -k  -s 5012 -i u100000 -d 100 -q &
+nohup hping3 192.166.111.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.111.3 -i u100000 -s 5013 -d 100 -2 -k &
+nohup hping3 192.166.1.14 -S -k  -s 5014 -i u100000 -d 100 -q &
+nohup hping3 192.166.1.14 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.1.14  -s 5015 -i u100000 -d 100 -2 -k &
+[root@localhost ~]# 
+
+10.25.2.177项目ly2
+[root@localhost ~]# 
+nohup hping3 192.166.101.4 -S -s 5000 -k -i u100000 -d 2000 -q &
+nohup hping3 192.166.101.4 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.101.4  -s 5001 -i u100000 -d 100 -2 &
+nohup hping3 192.166.102.4 -S  -s 5002 -k -i u100000 -d 100 -q &
+nohup hping3 192.166.102.4 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.102.4  -s 5003  -i u100000 -d 100 -2 -k &
+nohup hping3 192.166.103.4 -S -s 5004  -k -i u100000 -d 100 -q &
+nohup hping3 192.166.103.4 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.103.4  -s 5005 -i u100000 -d 100 -2 -k &
+nohup hping3 192.166.104.4 -S  -s 5006  -k -i u100000 -d 100 -q &
+nohup hping3 192.166.104.4 -i u100000 -d 100 -1 -q &
+nohup hping3 192.166.104.4  -s 5007 -i u100000 -d 100 -2 -k &
+[root@localhost ~]# 
+
+
+10.25.2.183项目ly3
+
+root@localhost ~]# 
+nohup hping3 10.25.2.176 -S -k -s 5000 -i u100000 -d 100 -q &
+nohup hping3 10.25.2.176 -i u100000 -d 100 -1 -q &
+nohup hping3 10.25.2.176 -i u100000 -s 5001  -d 100 -2 -k &
+nohup hping3 10.25.2.177 -S -k -i u100000  -s 5002  -d 100 -q &
+nohup hping3 10.25.2.177 -i u100000  -d 100 -1 -q &
+nohup hping3 10.25.2.177 -i u100000  -s 5003 -d 100 -2 -k &
+nohup hping3 10.25.2.183 -S -k -i u100000 -s 5004 -d 2000 -q &
+nohup hping3 10.25.2.183 -i u100000 -d 100 -1 -q &
+nohup hping3 10.25.2.183 -i u100000  -s 5005 -d 100 -2 &
+nohup hping3 10.25.2.184 -S -k  -s 5006 -i u100000 -d 100 -q &
+nohup hping3 10.25.2.184 -i u100000 -d 100 -1 -q &
+nohup hping3 10.25.2.184 -i u100000  -s 5007 -d 100 -2 -k &
+nohup hping3 10.25.2.181 -S -k  -s 5008 -i u100000 -d 100 -q &
+nohup hping3 10.25.2.181 -i u100000  -d 100 -1 -q &
+nohup hping3 10.25.2.181 -i u100000  -s 5009 -d 100 -2 -k &
+nohup hping3 10.25.3.2 -S -k  -s 5010 -i u100000 -d 100 -q &
+nohup hping3 10.25.3.2 -i u100000 -d 100 -1 -q &
+nohup hping3 10.25.3.2 -i u100000  -s 5011 -d 100 -2 -k &
+[root@localhost ~]# 
+
+
+10.25.2.184项目ly1
+
+[root@localhost ~]# 
+nohup hping3 192.107.1.3 -S -k -s 6000 -i u100000 -d 2000 &
+nohup hping3 192.107.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.107.1.3 -i u100000  -s 6001 -d 100 -2 -k &
+nohup hping3 192.108.1.3 -S -k -i u100000  -s 6002 -d 100 -q &
+nohup hping3 192.108.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.108.1.3 -i u100000  -s 6003 -d 100 -2 -k &
+nohup hping3 192.109.1.3 -S -k -i u100000  -s 6004 -d 100 -q &
+nohup hping3 192.109.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.109.1.3 -i u100000  -s 6005 -d 100 -2 -k &
+nohup hping3 192.110.1.3 -S -k -i u100000  -s 6006 -d 100 -q &
+nohup hping3 192.110.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.110.1.3 -i u100000 -d 100  -s 6007 -2 -k &
+nohup hping3 192.111.1.3 -S -k -i u100000  -s 6008 -d 100 -q &
+nohup hping3 192.111.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.111.1.3 -i u100000  -s 6009 -d 100 -2 -k &
+nohup hping3 10.25.2.181 -S -i u100000 -d 2000 -q &
+nohup hping3 10.25.2.181 -i u100000 -d 100 -1 -q &
+nohup hping3 10.25.2.181 -i u100000  -s 6010 -d 100 -2 -k &
+[root@localhost ~]# 
+
+
+10.25.2.181项目ly1
+
+root@localhost ~]# 
+nohup hping3 192.101.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.101.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.101.1.3 -i u100000 -d 100 -2 -k &
+nohup hping3 192.102.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.102.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.102.1.3 -i u100000 -d 100 -2 -k &
+nohup hping3 192.103.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.103.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.103.1.3 -i u100000 -d 100 -2 -k &
+nohup hping3 192.104.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.104.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.104.1.3 -i u100000 -d 100 -2 -k & 
+nohup hping3 192.105.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.105.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.105.1.3 -i u100000 -d 100 -2 -k &
+nohup hping3 192.106.1.3 -S -i u100000 -d 100 -q &
+nohup hping3 192.106.1.3 -i u100000 -d 100 -1 -q &
+nohup hping3 192.106.1.3 -i u100000 -d 100 -2 -k &
+nohup hping3 10.25.2.184 -S -i u100000 -d 100 -q &
+nohup hping3 10.25.2.184 -i u100000 -d 2000 -1 -q &
+nohup hping3 10.25.2.184 -i u100000 -d 100 -2 -k &
+[root@localhost ~]# 
+
+
